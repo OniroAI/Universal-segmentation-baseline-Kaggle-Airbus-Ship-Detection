@@ -1,6 +1,6 @@
 # Universal segmentation baseline. Kaggle Airbus Ship Detection Challenge - bronze medal solution. 
 
-This repo contains full solution for the challenge: from datasets creation to training and creating submit file. Moreover it can be used as a universal high-quality baseline solution for any segmentation task.
+This repository contains a complete solution for the challenge: from creating datasets to training and creating a submit file. Moreover, it can be used as a universal high-quality baseline solution for any segmentation task.
 
 
 ## Content
@@ -15,7 +15,7 @@ This repo contains full solution for the challenge: from datasets creation to tr
 
 ### Preparations 
 
-* Clone the repo, build docker image using provided script and Dockerfile. 
+* Clone the repo, build a docker image using provided script and Dockerfile. 
 
     ```
     git clone 
@@ -36,7 +36,7 @@ This repo contains full solution for the challenge: from datasets creation to tr
 
 ### Run
 
-* The container could be started by shell script
+* The container could be started by a shell script
 
     ```
     cd cd airbus-ship-detection/docker
@@ -87,7 +87,7 @@ All transforms are applied on the fly during batch preparation and there is no n
  ## Prediction  and postprocessing <a name="prediction"/>
  
  This part of the repo is relevant only for the competition but some postprocessing functions may be used to treat any segmentation results.
- The whole process described in [noteboks/prediction.ipynb](notebooks/prediction.ipynb). There function "waters" is defined which combines all used postprocessing techniques and may be found useful.
+ The whole process described in [noteboks/prediction.ipynb](notebooks/prediction.ipynb). There is function "waters" is defined which combines all used postprocessing techniques and may be found useful.
  Examples of trained model predictions and results of postprocessing are presented on the following image.
  ![predictions](git_images/predictions.gif "Predictions")
  
