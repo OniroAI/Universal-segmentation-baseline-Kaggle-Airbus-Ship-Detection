@@ -72,7 +72,7 @@ All transforms are applied on the fly during batch preparation and there is no n
  ## Training  <a name="training"/>
  
  Training process is implemented in [train_linknet.ipynb](/notebooks/train_linknet.ipynb) notebook.
- Here we use [Argus](https://github.com/lRomul/argus) framework for PyTorch which make this process easier and more compact.
+ Here we use [Argus](https://github.com/lRomul/argus) framework for PyTorch which makes this process easier and more compact.
  For training you only need to pass model and loss function and follow procedure described in the [example](https://github.com/lRomul/argus#examples).
  
  As a model we used U-Net with ResNet34 as encoder but you can set any available ResNet(18,34,50,101,152) and choose whether to use pretrained layers from torchvision or not.
