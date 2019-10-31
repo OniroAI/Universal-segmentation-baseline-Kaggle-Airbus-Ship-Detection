@@ -39,7 +39,7 @@ This repo contains full solution for the challenge: from datasets creation to tr
 * The container could be started by shell script
 
     ```
-    cd cd airbus-ship-detection/docker
+    cd airbus-ship-detection/docker
     ./run.sh
     ```
 
